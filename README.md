@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://yetithesleepingchancellor.github.io/blog-preview-card/](https://yetithesleepingchancellor.github.io/blog-preview-card/)
 
 ## My process
 
@@ -49,16 +49,27 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<time class="date" datetime="2023-12-21">Published 21 Dec 2023</time>
 ```
+```html
+    <article class="card">
+        ....
+
+      <footer class="author">
+        ....
+      </footer>
+    </article>
+```
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@font-face {
+    font-family: 'Figtree ExtraBold';
+    src: url('../assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+@font-face {
+    font-family: 'Figtree Medium';
+    src: url('../assets/fonts/static/Figtree-Medium.ttf') format('truetype');
 }
 ```
 
